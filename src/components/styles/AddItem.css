@@ -1,0 +1,51 @@
+.add-item-container {
+  max-width: 400px; 
+  margin: 70px auto; 
+  padding: 20px;
+  border: 1px solid #080202;
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #c5a9f8; 
+  
+}
+
+.add-item-form {
+  display: flex;
+  flex-direction: column; 
+}
+
+.add-item-button {
+  margin-bottom: 10px; 
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+.add-item-input:focus,
+.add-item-select:focus {
+  border-color: royalblue; 
+  outline: none; 
+}
+
+.add-item-button {
+  background-color: #9054ff; 
+  color: white;
+  border-radius: 7px;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.button {
+  background-color: royalblue;
+}
+
+.add-item-button:hover {
+  background-color: #6e21fd; 
+}
+
+.add-item-message {
+  margin-top: 10px; 
+  color: rgb(0, 0, 0); 
+}
+
+

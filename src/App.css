@@ -1,0 +1,78 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  background-image: url(bg/cloud.gif);
+  background-size: 1900px;
+}
+
+h1, h2 {
+  color: #b700ff;
+  text-align: center;
+  font-family: "Playwrite DE Grund", bold, cursive;
+  font-size: 50px;
+  letter-spacing: 2px;
+  -webkit-text-stroke: #000000;
+  -webkit-text-stroke-width: 2px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  margin: 20px; 
+}
+
+button {
+  background-color: #b255ff;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #3a4c6c;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #8ca9bc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #5281a3;
+  color: white;
+}
+
+td {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+input, select {
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+}
+
+input[type="number"] {
+  width: 50%;
+}
+
+p {
+  text-align: center;
+  color: #000000;
+}
